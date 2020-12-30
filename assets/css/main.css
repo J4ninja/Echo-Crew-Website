@@ -4011,3 +4011,8 @@ input, select, textarea {
 {
 	text-align: center;
 }
+
+html 
+{
+	scroll-behavior: smooth;
+}
