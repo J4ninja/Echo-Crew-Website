@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Quotes - Echo Crew</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Echo Crew</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="quotes.html">Quotes</a></li>
+											<li><a href="gallery.html">Gallery</a></li>
+											
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<h2>Quote Generator</h2>
+							<p>No Context</p>
+						</header>
+						<section class="wrapper style5">
+							<div class="inner">
+								<button class="btn" onclick ="getRandomQuote();" id="btn-1">Generate Quote</button>
+								<div class="inputBox">
+									<input type="text" name="" placeholder="Press button to generate quote" id="quotearea" readonly="">
+
+								</div>
+							
+
+							
+
+							</div>
+						</section>
+					</article>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-snapchat"><span class="label">Twitter</span></a></li>
+							<li><a href="https://github.com/J4ninja" class="icon brands fa-github"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/j4.nguyen/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-linkedin"><span class="label">Dribbble</span></a></li>
+							<li><a href="mailto:j4nguyen134@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; J4 Incorporated</li><li>All Rights Reserved</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script type="text/javascript">
+			function getRandomQuote()
+			{
+				var quotes = ["97943 -The Gang", "Would you wear a large coat? -John", "Hi best friend -Tony", "Money coming in, coming out, all around -Arthur", "I like eating ass -Raf", "Stop playing Dead Island -Arthur", "Tossin one off -Arthur", "Corrin's my main -John", "Texas changed you -Tony", "No more furries -Tony", "Im gay - Raf", "Who are you people -Jacob", "I forgot how to play -Jacob", "Garry's Stove -Arthur", "Bless me, thank you -Steve", "John's mom -Steve", "JV lacrosse practice -Quiplash", "Don't shoot, this man isn't black -Trunks", "Big Shaq -Arthur", "and one - Lucas,Raf", "beat it as a team -Arthur", "AACCCHOOOO!!! - Joseph", "*harmonica screeching* -Jeff", "I'm not a weeb, I'm a pervert -Steve", "MONGOLIAN BEEF -Raf", "How big is your cucumber patch? -Alex", "How did I die -oh yah clan, must've been something stupid -Joseph", "ALLOW IT -Ahmed", "PAUSE -Ahmed", "Spedmobile -Ahmed", "POV, You're my wife -Raf", "It's so big -Arthur", "LET YOUR NUTS HANG! -Ahmed", "I'm gonnna be the number one american, believe it -John", "I'm tired of these headphones, I'm gonna put on my sunglasses -Joseph", "I'm not haitian -Arthur", "I want thy dick - Steve"];
+				document.getElementById("quotearea").value = quotes[Math.floor(Math.random()*quotes.length)];
+			}
+			</script>
+	</body>
+</html>
