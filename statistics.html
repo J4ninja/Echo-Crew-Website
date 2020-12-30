@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Statistics - Echo Crew</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Echo Crew</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="quotes.html">Quotes</a></li>
+                                            <li><a href="gallery.html">Gallery</a></li>
+                                            <li><a href="statistics.html">Statistics</a></li>
+											
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<h2>Statistics</h2>
+							<p>The Numbers</p>
+						</header>
+						<section class="wrapper style3">
+							<div class="inner">
+                                
+                             
+                                    <div class="counting-sec">
+                                      <div class="inner-width">
+                                        <div class="col">
+                                          <i class="icon solid fa-users"></i>
+                                          <div class="num">27</div>
+                                          Members
+                                        </div>
+                                
+                                        <div class="col">
+                                          <i class="icon solid fa-rocket"></i>
+                                          <div class="num">4</div>
+                                          Boosts
+                                        </div>
+                                
+                                        <div class="col">
+                                          <i class="icon solid fa-robot"></i>
+                                          <div class="num">11</div>
+                                          Bots
+                                        </div>
+                                
+                                        <div class="col">
+                                          <i class="icon solid fa-align-left"></i>
+                                          <div class="num">15</div>
+                                          Channels
+                                        </div>
+                                      </div>
+                                    </div>
+                                 
+                            
+								
+							</div>
+						</section>
+                    </article>
+                    
+                    <!-- One -->
+					<section id="one" class="wrapper style2">
+						<div class="inner">
+                            <script type="text/javascript">
+                                window.onload = function () {
+                                
+                                var chart = new CanvasJS.Chart("chartContainer", {
+                                    theme: "dark1", // "light2", "dark1", "dark2"
+                                    animationEnabled: true, // change to true		
+                                    title:{
+                                        text: "Player Count Per Game"
+                                    },
+                                    data: [
+                                    {
+                                        // Change type to "bar", "area", "spline", "pie",etc.
+                                        type: "column",
+                                        dataPoints: [
+                                            { label: "League of Legends",  y: 4  },
+                                            { label: "Cyberpunk 2077", y: 4  },
+                                            { label: "Minecraft",  y: 7  },
+                                            { label: "Pokemon GO",  y: 5  },
+                                            { label: "Gunfire Reborn",  y: 4  },
+                                            { label: "Apex Legends",  y: 4  },
+                                            { label: "Osu",  y: 2  },
+                                        ]
+                                    }
+                                    ]
+                                });
+                                chart.render();
+                                
+                                }
+                                </script>
+							<div id="chartContainer" style="height: 400px; width: 100%;"></div>
+                            <script src="https://canvasjs.com/assets/script/canvasjs.min.js"> </script>
+							
+							
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-snapchat"><span class="label">Twitter</span></a></li>
+							<li><a href="https://github.com/J4ninja" class="icon brands fa-github"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/j4.nguyen/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-linkedin"><span class="label">Dribbble</span></a></li>
+							<li><a href="mailto:j4nguyen134@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; J4 Incorporated</li><li>All Rights Reserved</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+            <script src="assets/js/main.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+            <script type="text/javascript">
+                $(".num").counterUp({delay:10,time:1000});
+              </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+	</body>
+</html>
